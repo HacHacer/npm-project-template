@@ -1,11 +1,12 @@
 {
-  "name": "npm-project-template",
+  "name": "matt-npm-project-template",
   "version": "0.0.1",
   "description": "this is a test npm package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "https://github.com/HacHacer/npm-project-template.git",
   "keywords": [
     "nodejs",
     "npm"
