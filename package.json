@@ -4,6 +4,9 @@
   "description": "this is a test npm package",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/HacHacer/npm-project-template.git",
@@ -12,5 +15,12 @@
     "npm"
   ],
   "author": "matt",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.12"
+  }
 }
